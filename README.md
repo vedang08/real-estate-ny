@@ -8,6 +8,15 @@ The goal of this project is to carry out analysis on the data for all the counti
 ## Data
 The real estate data has been provided by Redfin and can be accessed [here](https://www.redfin.com/news/data-center/)
 
+## Work
+The execution of multivariate time series forecasting using clustering methods based on unsupervised learning techniques was possible with implementations provided by [tslearn](https://tslearn.readthedocs.io/en/stable/index.html). Utilizing Dynamic Time Warping(DTW) implementation, optimization and visualization was carried out for K-means with Euclidean metrics and DTW-Barycenter Averaging(DBA) K-means with the results being:
+ - K-means Euclidean
+     - **Univariate:-** Inertia = 18.728486338326018, Clusters = 7
+     - **Multivariate:-** Inertia = 205.83835261826746, Clusters = 9
+ - DBA-K-means
+     - **Univariate:-** Inertia = 7.818229387121636, Clusters = 6
+     - **Multivariate:-** Inertia = 213.33150461494134, Clusters = 7
+
 ## Author
 **Name:** Vedang Naik
 
