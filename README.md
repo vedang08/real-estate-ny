@@ -1,4 +1,4 @@
-# Clustering techniques for forecasting real estate prices in New York
+# Unsupervised Learning clustering techniques for forecasting real estate prices in New York
 
 Real Estate is usually categorized into smaller regional pockets where the location determines the value of the asset. In a more machine learning sense, we could consider these pockets to be clusters where each cluster can be considered to represent a similar type of real estate opportunity. Such type of analysis could be useful to make real estate investment decisions. 
 
